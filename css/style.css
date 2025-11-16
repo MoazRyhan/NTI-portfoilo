@@ -1,6 +1,4 @@
 
-
-/* =============================================== section 1 ========================================== */
 *{
     padding: 0;
     margin: 0;
@@ -9,14 +7,8 @@
     overflow-x: hidden;
 }
 
-.main_nav {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    position: absolute;
-    top: 3%;
-    left: 65%;
-}
+
+/* =============================================== section 1 ========================================== */
 
 .nav-link {
   color: #8b9bac; 
@@ -28,7 +20,6 @@
 
 .nav-link:hover {
     color: #00bcd4;
-    transform: translateY(-3px);
 }
 
 .main_nav ul {
@@ -62,7 +53,7 @@
 .container_part1{
     flex-direction: column;
     position: relative;
-    top: 35%;
+    top: 25%;
 
     text-align: center;
 }
@@ -120,14 +111,14 @@
     padding-top: 30px ;
 }
 .cv_button button {
-    background-color: #00bcd4;
+    background-color: #1A1A2E;
     color: #ffffff;
     padding: 12px 25px;
     border-radius: 50px;
     font-size: 1.1em;
     font-weight: bold;
     cursor: pointer;
-    border: 2px solid #00bcd4;
+    border: 2px solid #283c3e;
     transition: all 0.3s ease;
 }
  
@@ -566,7 +557,7 @@
 }
 
 .build_me{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 
