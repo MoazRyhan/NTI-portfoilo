@@ -345,14 +345,21 @@
     
 }
 
+/* ======== respo ========== */
 @media (max-width: 900px) {
     .main_part3 {
-        flex-direction: column;
-        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }
 
 
+@media (max-width: 600px) {
+    .main_part3 {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
 
 
 
